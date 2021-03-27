@@ -1,4 +1,4 @@
 .idea
 node_modules
-./node/dist
+dist
 sites-500.txt
