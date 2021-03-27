@@ -9,8 +9,6 @@ import (
 )
 
 func main() {
-	start := time.Now()
-
 	resc, errc := make(chan string), make(chan error)
 
 	data, err := ioutil.ReadFile("../sites.txt")
@@ -18,6 +16,8 @@ func main() {
 		panic(err)
 	}
 	sites := strings.Split(string(data), "\n")
+
+	start := time.Now()
 	for _, site := range sites {
 		go func(url string) {
 			start := time.Now()
