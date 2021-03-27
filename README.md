@@ -9,7 +9,7 @@ The comparison is between Node.js and Golang using Promise.all() vs Go Routines 
 ## Node
 ```bigquery
 cd node
-ts-node './src/index.ts'
+ts-node ./src/index.ts
 ```
 
 ## Go
