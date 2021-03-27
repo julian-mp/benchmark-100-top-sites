@@ -1,0 +1,4 @@
+.idea
+node_modules
+./node/dist
+sites-500.txt
